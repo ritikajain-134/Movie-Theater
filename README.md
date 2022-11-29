@@ -1,5 +1,5 @@
 # Movie-Theater
-An online ticketing system involves interaction between the representatives of a business and the customer. Both parties have access to the system but they can use it in different ways and the customers access the system as registered users or visitors this system is desktop application..!! supportable to windows OS..
+An online ticketing system involves interaction between the representatives of a business and the customer. Both parties have access to the system but they can use it in different ways and the customers access the system as registered users or visitors this system is desktop application sith resolution of 1366*768..!! supportable to windows OS..
 
 
 ![Screenshot (9)](https://user-images.githubusercontent.com/119391664/204446575-72d01a40-eef5-48c5-80f2-ed3c7cae6bf3.png)
