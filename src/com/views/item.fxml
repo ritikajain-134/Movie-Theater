@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="plane" prefHeight="338.0" prefWidth="212.0" style="-fx-background-color: #1B3450; -fx-background-radius: 15; -fx-border-color: black; -fx-border-radius: 15;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.controller.ItemController">
+   <children>
+      <ImageView fx:id="image" fitHeight="256.0" fitWidth="195.0" layoutX="9.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true" />
+      <JFXButton onMouseClicked="#onclick" prefHeight="266.0" prefWidth="210.0" style="-fx-background-radius: 20;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></JFXButton>
+      <Label fx:id="MoviesTitle" alignment="CENTER" contentDisplay="CENTER" layoutX="19.0" layoutY="273.0" prefHeight="50.0" prefWidth="178.0" text="Label" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="SimSun" size="20.0" />
+         </font>
+      </Label>
+   </children>
+   <padding>
+      <Insets bottom="10.0" />
+   </padding>
+</AnchorPane>

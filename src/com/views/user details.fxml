@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.TextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="Pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="760.0" prefWidth="1250.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.controller.userframecontroller">
+   <children>
+      <Pane layoutX="20.0" layoutY="10.0" prefHeight="740.0" prefWidth="1210.0" style="-fx-background-color: fff;">
+         <children>
+            <Label alignment="CENTER" layoutX="360.0" layoutY="22.0" prefHeight="43.0" prefWidth="380.0" text="User Details">
+               <font>
+                  <Font name="SimSun" size="26.0" />
+               </font>
+            </Label>
+            <TextField fx:id="username" layoutX="53.0" layoutY="103.0" prefHeight="51.0" prefWidth="289.0" promptText="First Name" />
+            <TextField fx:id="userlastname" layoutX="421.0" layoutY="103.0" prefHeight="51.0" prefWidth="295.0" promptText="Last Name" />
+            <TextField fx:id="usernumber" layoutX="847.0" layoutY="103.0" prefHeight="51.0" prefWidth="295.0" promptText="Phone Number" />
+            <Button fx:id="paymentbutton" layoutX="43.0" layoutY="652.0" mnemonicParsing="false" onAction="#onPaymentClick" prefHeight="38.0" prefWidth="166.0" style="-fx-background-radius: 30;" text="Payment">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Label layoutX="33.0" layoutY="184.0" prefHeight="38.0" prefWidth="122.0" text="Ticket Type  :-">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <VBox layoutX="803.0" layoutY="318.0" prefHeight="300.0" prefWidth="380.0" spacing="12.0">
+               <children>
+                  <Label fx:id="moviesTitle" alignment="TOP_CENTER" prefHeight="40.0" prefWidth="380.0" text=" 00 rupees" textFill="#4b4343">
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Dubai Medium" size="25.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="TicketCount" alignment="TOP_CENTER" prefHeight="40.0" prefWidth="380.0" text=" 00 rupees" textFill="#4b4343">
+                     <font>
+                        <Font name="Dubai Medium" size="25.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="TicketType" alignment="TOP_CENTER" prefHeight="40.0" prefWidth="380.0" text=" 00 rupees" textFill="#4b4343">
+                     <font>
+                        <Font name="Dubai Medium" size="25.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="MoviesPrice" alignment="TOP_CENTER" prefHeight="40.0" prefWidth="380.0" text=" 00 rupees" textFill="#4b4343">
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Dubai Medium" size="25.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="FoodType" alignment="TOP_CENTER" prefHeight="40.0" prefWidth="380.0" text=" 00 rupees" textFill="#4b4343">
+                     <font>
+                        <Font name="Dubai Medium" size="25.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="20.0" />
+                     </VBox.margin>
+                  </Label>
+               </children>
+            </VBox>
+            <Separator layoutX="802.0" layoutY="649.0" prefHeight="0.0" prefWidth="379.0" style="-fx-background-color: black;" />
+            <VBox alignment="CENTER" layoutX="612.0" layoutY="318.0" prefHeight="300.0" prefWidth="177.0" spacing="12.0">
+               <children>
+                  <Label alignment="BOTTOM_CENTER" prefHeight="40.0" prefWidth="178.0" text="Movie Tittel">
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="SimSun" size="23.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="BOTTOM_CENTER" prefHeight="40.0" prefWidth="178.0" text="Ticket Count">
+                     <font>
+                        <Font name="SimSun" size="23.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="BOTTOM_CENTER" prefHeight="40.0" prefWidth="178.0" text="Ticket Type">
+                     <font>
+                        <Font name="SimSun" size="23.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="BOTTOM_CENTER" prefHeight="40.0" prefWidth="178.0" text="Movie Price">
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                     <font>
+                        <Font name="SimSun" size="23.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="BOTTOM_CENTER" prefHeight="40.0" prefWidth="178.0" text="Food">
+                     <font>
+                        <Font name="SimSun" size="23.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="20.0" />
+                     </VBox.margin>
+                  </Label>
+               </children>
+            </VBox>
+            <Label fx:id="totalamount" alignment="CENTER" layoutX="806.0" layoutY="659.0" prefHeight="49.0" prefWidth="373.0" text="00.0 Rs">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+            </Label>
+            <TextField fx:id="seatNumber" disable="true" layoutX="423.0" layoutY="184.0" prefHeight="37.0" prefWidth="308.0" text="Selected Seat Number" />
+            <Button layoutX="512.0" layoutY="652.0" mnemonicParsing="false" onAction="#CancelClick" prefHeight="38.0" prefWidth="166.0" style="-fx-background-radius: 30;" text="Cancel">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <ChoiceBox fx:id="ChoiseBoxTicketType" layoutX="162.0" layoutY="189.0" prefHeight="37.0" prefWidth="166.0" />
+            <Label layoutX="843.0" layoutY="184.0" prefHeight="38.0" prefWidth="122.0" text="Food /Beverage :-">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <ChoiceBox fx:id="FoodTypeChoiseBox" layoutX="974.0" layoutY="184.0" prefHeight="37.0" prefWidth="166.0" />
+            <Pane layoutX="1.0" onMouseClicked="#onClick">
+               <children>
+                  <ImageView fitHeight="51.0" fitWidth="64.0">
+                     <image>
+                        <Image url="@../img/icons8_back_arrow_64px_1.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

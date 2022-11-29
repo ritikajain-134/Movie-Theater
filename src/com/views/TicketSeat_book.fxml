@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Polyline?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="760.0" prefWidth="1250.0" styleClass="chart-plot-background" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.controller.ticketseatcontroller">
+   <children>
+      <Label alignment="CENTER" layoutX="431.0" layoutY="10.0" prefHeight="47.0" prefWidth="382.0" style="-fx-background-color: #8C959B; -fx-background-radius: 20;" text="Book Seat">
+         <font>
+            <Font name="SimSun" size="27.0" />
+         </font>
+      </Label>
+      <Pane layoutX="50.0" layoutY="80.0" prefHeight="430.0" prefWidth="550.0" style="-fx-background-color: rgba(27,52,80,0.5);">
+         <children>
+            <GridPane fx:id="gridleft" prefHeight="430.0" prefWidth="550.0">
+              <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+            </GridPane>
+         </children>
+      </Pane>
+      <Pane layoutX="650.0" layoutY="80.0" prefHeight="430.0" prefWidth="550.0" style="-fx-background-color: rgba(27,52,80,0.5);">
+         <children>
+            <GridPane fx:id="gridright" prefHeight="430.0" prefWidth="550.0">
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" />
+               </rowConstraints>
+            </GridPane>
+         </children>
+      </Pane>
+      <Pane layoutX="155.0" layoutY="550.0" prefHeight="90.0" prefWidth="935.0" style="-fx-background-color: rgba(27,52,80,0.5);">
+         <children>
+            <GridPane fx:id="gridbase" prefHeight="90.0" prefWidth="935.0">
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" />
+               </rowConstraints>
+            </GridPane>
+         </children>
+      </Pane>
+      <Polyline fill="#0078e5" layoutX="660.0" layoutY="750.0" points="-610.0, -78.9332275390625, -476.4000244140625, -58.0, -243.86663818359375, -48.7999267578125, 191.33331298828125, -48.7999267578125, 372.5999755859375, -57.999969482421875, 540.5999755859375, -78.93329620361328, 372.5999755859375, -48.799949645996094, 191.33331298828125, -36.6666259765625, -37.0, -34.40004348754883, -243.86663818359375, -36.6666259765625, -476.4000244140625, -48.79998779296875, -610.0, -78.9332275390625" strokeType="INSIDE" />
+      <Label layoutX="600.0" layoutY="736.0" text="Screen">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Label>
+      <Label alignment="CENTER" layoutX="224.0" layoutY="50.0" prefHeight="34.0" prefWidth="53.0" text="A">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="960.0" layoutY="50.0" prefHeight="34.0" prefWidth="53.0" text="B">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="600.0" layoutY="510.0" prefHeight="27.0" prefWidth="53.0" text="C">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="607.0" layoutY="368.0" text="Seats">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="seatbook" layoutX="1156.0" layoutY="704.0" onAction="#seatbookonClick" prefHeight="40.0" prefWidth="80.0" style="-fx-background-color: rgb(179, 187, 196); -fx-background-radius: 20;" styleClass="button-1" stylesheets="@../values/style.css" text="Book">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <Pane layoutX="6.0" layoutY="6.0" onMouseClicked="#onClick">
+         <children>
+            <ImageView fitHeight="47.0" fitWidth="64.0">
+               <image>
+                  <Image url="@../img/icons8_back_arrow_64px_1.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

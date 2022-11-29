@@ -1,0 +1,88 @@
+.setimages{
+    -fx-background-image: url("micheile-dot-com-85hBm_YY2SI-unsplash.jpg");
+    -fx-background-color: #cccccc;
+    /*-fx-height: 500px;*/
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    /*-fx-position: relative;*/
+    /*-fx-background-position: 10%;*/
+    -fx-background-size: 100% 100%;
+}
+
+.color{
+    -fx-text-fill: #fff;
+}
+.fill-background{
+    -fx-background-image: url('\src\com\img\img1.jpg');
+    -fx-background-size: 30px;
+    -fx-background-repeat: no-repeat;
+
+}
+
+.chart {
+    -fx-background-color: rgba(0, 0,0 , 0.6);
+    -fx-background-radius: 20;
+}
+
+.chart-plot-background {
+    -fx-background-color: transparent;
+}
+
+
+.chart-pie{
+    -fx-background-color: rgba(0, 0,0 , 0.5);
+    -fx-background-radius: 20;
+}
+
+#Pane {
+    -fx-background-color: rgba(255, 255,255 , 0.4);
+    -fx-background-radius: 20;
+}
+#button{
+    -fx-background-color: rgba(127, 127,127,0.6);
+    -fx-background-radius:20;
+}
+.button-1:hover{
+    -fx-background-color:rgb(22, 42, 49) ;
+    -fx-background-radius:20;
+    -fx-text-fill: #fff;
+
+}
+#textfield{
+    -fx-text-fill: #fff;
+}
+.setflashscre{
+    -fx-opacity: 0.2    ;
+}
+.scroll-bar
+{
+  -fx-skin: "hs.mediasystem.util.javafx.control.MinimalScrollBarSkin";
+  -fx-background-color: transparent;
+}
+
+.scroll-bar .track
+{
+  -fx-stroke-width: 1;
+  -fx-stroke: -c-dark-glass;
+  -fx-arc-width: 16px;
+  -fx-arc-height: 16px;
+  -fx-fill: transparent;
+}
+
+.scroll-bar .thumb
+{
+  -fx-fill: -c-glass;
+  -fx-arc-width: 16px;
+  -fx-arc-height: 16px;
+}
+
+.list-view,
+.scroll-pane,
+.scroll-pane > .viewport
+{
+  -fx-background-color: transparent;
+}
+#lb{
+     -fx-text-fill: #fff;
+}

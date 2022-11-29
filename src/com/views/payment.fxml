@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="850.0" prefWidth="1250.0" style="-fx-background-color: #D3E0E9;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.controller.paymentccontroller">
+   <children>
+      <Button layoutX="64.0" layoutY="615.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="127.0" style="-fx-background-radius: 20; -fx-background-color: #8C959B;" text="Cancel" />
+      <Button layoutX="293.0" layoutY="615.0" mnemonicParsing="false" onAction="#paymentclick" prefHeight="30.0" prefWidth="127.0" style="-fx-background-radius: 20; -fx-background-color: #8C959B;" text="Payment" />
+      <VBox alignment="CENTER_LEFT" layoutX="7.0" layoutY="14.0" prefHeight="530.0" prefWidth="161.0" style="-fx-background-color: #EEF7FE; -fx-background-radius: 20;">
+         <children>
+            <Label prefHeight="42.0" prefWidth="298.0" text="Uri: The Surgical Strike">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label prefHeight="42.0" prefWidth="231.0" text="Uri: The Surgical Strike">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label prefHeight="42.0" prefWidth="298.0" text="Uri: The Surgical Strike">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label prefHeight="42.0" prefWidth="231.0" text="Uri: The Surgical Strike">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label prefHeight="42.0" prefWidth="298.0" text="Uri: The Surgical Strike">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label prefHeight="42.0" prefWidth="231.0" text="Uri: The Surgical Strike">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label prefHeight="42.0" prefWidth="298.0" text="Uri: The Surgical Strike">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label prefHeight="42.0" prefWidth="231.0" text="Uri: The Surgical Strike">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label prefHeight="42.0" prefWidth="298.0" text="Uri: The Surgical Strike">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label prefHeight="42.0" prefWidth="298.0" text="Uri: The Surgical Strike">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label prefHeight="42.0" prefWidth="298.0" text="Uri: The Surgical Strike">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label prefHeight="42.0" prefWidth="298.0" text="Uri: The Surgical Strike">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+         </children>
+         <padding>
+            <Insets left="10.0" top="3.0" />
+         </padding>
+      </VBox>
+      <VBox alignment="CENTER_LEFT" layoutX="175.0" layoutY="14.0" prefHeight="530.0" prefWidth="294.0" style="-fx-background-color: #EEF7FE; -fx-background-radius: 20;">
+         <children>
+            <Label prefHeight="42.0" prefWidth="278.0" text="Uri: The Surgical Strike">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label prefHeight="42.0" prefWidth="278.0" text="Uri: The Surgical Strike">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label prefHeight="42.0" prefWidth="278.0" text="Uri: The Surgical Strike">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label prefHeight="42.0" prefWidth="278.0" text="Uri: The Surgical Strike">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label prefHeight="42.0" prefWidth="278.0" text="Uri: The Surgical Strike">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label prefHeight="42.0" prefWidth="278.0" text="Uri: The Surgical Strike">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label prefHeight="42.0" prefWidth="278.0" text="Uri: The Surgical Strike">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label prefHeight="42.0" prefWidth="278.0" text="Uri: The Surgical Strike">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label prefHeight="42.0" prefWidth="278.0" text="Uri: The Surgical Strike">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label prefHeight="42.0" prefWidth="278.0" text="Uri: The Surgical Strike">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label prefHeight="42.0" prefWidth="278.0" text="Uri: The Surgical Strike">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label prefHeight="42.0" prefWidth="278.0" text="Uri: The Surgical Strike">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+         </children>
+         <padding>
+            <Insets left="10.0" top="3.0" />
+         </padding>
+      </VBox>
+      <Separator layoutX="175.0" layoutY="553.0" prefHeight="3.0" prefWidth="294.0" style="-fx-background-color: black;" />
+   </children>
+</AnchorPane>

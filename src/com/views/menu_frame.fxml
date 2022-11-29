@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="740.0" prefWidth="1256.0" style="-fx-background-color: #D9E6EF;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.controller.menu_framecontroller">
+   <left>
+      <VBox prefHeight="775.0" prefWidth="251.0" spacing="10.0" style="-fx-background-color: #ADB8C0;" BorderPane.alignment="CENTER">
+         <children>
+            <JFXButton fx:id="home_button" prefHeight="59.0" prefWidth="251.0" ripplerFill="#1b3450" style="-fx-background-radius: 30;" text="Menu" textFill="WHITE">
+               <font>
+                  <Font name="SimSun" size="26.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="20.0" right="20.0" top="120.0" />
+               </VBox.margin>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </JFXButton>
+            <JFXButton prefHeight="59.0" prefWidth="251.0" ripplerFill="#1b3450" style="-fx-background-radius: 30;" text="Menu" textFill="WHITE">
+               <font>
+                  <Font name="SimSun" size="26.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="20.0" right="20.0" top="30.0" />
+               </VBox.margin>
+            </JFXButton>
+            <JFXButton prefHeight="59.0" prefWidth="251.0" ripplerFill="#1b3450" style="-fx-background-radius: 30;" text="Menu" textFill="WHITE">
+               <font>
+                  <Font name="SimSun" size="26.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="20.0" right="20.0" top="30.0" />
+               </VBox.margin>
+            </JFXButton>
+            <JFXButton prefHeight="59.0" prefWidth="251.0" ripplerFill="#1b3450" style="-fx-background-radius: 30;" text="Menu" textFill="WHITE">
+               <font>
+                  <Font name="SimSun" size="26.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="20.0" right="20.0" top="30.0" />
+               </VBox.margin>
+            </JFXButton>
+            <JFXButton prefHeight="59.0" prefWidth="251.0" ripplerFill="#1b3450" style="-fx-background-radius: 30;" text="Menu" textFill="WHITE">
+               <font>
+                  <Font name="SimSun" size="26.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="20.0" right="20.0" top="30.0" />
+               </VBox.margin>
+            </JFXButton>
+         </children>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+      </VBox>
+   </left>
+</BorderPane>

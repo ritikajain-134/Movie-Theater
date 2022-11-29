@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="710.0" prefWidth="970.0" style="-fx-background-color: rgb(3, 3, 3); -fx-background-radius: 50;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.controller.signupcontroller">
+   <children>
+      <Label alignment="TOP_CENTER" layoutX="641.0" layoutY="170.0" prefHeight="38.0" prefWidth="191.0" style="-fx-background-color: rgba(255,255,255,0.5); -fx-background-radius: 20;" text="Sing Up" textFill="WHITE">
+         <font>
+            <Font name="High Tower Text" size="34.0" />
+         </font>
+      </Label>
+      <VBox alignment="CENTER" layoutX="545.0" layoutY="242.0" prefHeight="330.0" prefWidth="383.0" spacing="20.0">
+         <children>
+            <JFXTextField id="textfield" fx:id="name_textfield" alignment="CENTER" focusColor="RED" prefHeight="45.0" prefWidth="383.0" promptText="Enter Name" styleClass="color" stylesheets="@../values/style.css" unFocusColor="WHITE">
+               <font>
+                  <Font name="SimSun" size="21.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField id="textfield" fx:id="phone_textfield" alignment="CENTER" focusColor="RED" prefHeight="45.0" prefWidth="383.0" promptText="Phone Number" styleClass="color" stylesheets="@../values/style.css" unFocusColor="WHITE">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField id="textfield" fx:id="email_textfield1" alignment="CENTER" focusColor="RED" layoutX="10.0" layoutY="92.0" prefHeight="45.0" prefWidth="383.0" promptText="Email Id" styleClass="color" stylesheets="@../values/style.css" unFocusColor="WHITE">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField id="textfield" fx:id="password_textfield" alignment="CENTER" focusColor="RED" prefHeight="45.0" promptText="Password" styleClass="color" stylesheets="@../values/style.css" unFocusColor="WHITE">
+             <font>
+                  <Font size="21.0" />
+               </font>
+            </JFXTextField>
+            <JFXPasswordField id="textfield" fx:id="conform_password_field" alignment="CENTER" focusColor="RED" promptText="Password Conformation" styleClass="color" stylesheets="@../values/style.css" unFocusColor="WHITE">
+               <font>
+                  <Font name="SimSun" size="21.0" />
+               </font>
+            </JFXPasswordField>
+         </children>
+      </VBox>
+      <Button fx:id="signup_button" layoutX="550.0" layoutY="641.0" mnemonicParsing="false" onAction="#signupClick" prefHeight="38.0" prefWidth="132.0" style="-fx-background-radius: 20;" text="Sing Up">
+         <font>
+            <Font name="SimSun" size="17.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="cancel_button" layoutX="801.0" layoutY="641.0" mnemonicParsing="false" onAction="#cancelClick" prefHeight="38.0" prefWidth="132.0" style="-fx-background-radius: 20;" text="Cancel">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <ImageView fitHeight="674.0" fitWidth="494.0" layoutX="21.0" layoutY="10.0">
+         <image>
+            <Image url="@../img/alien-movie-poster-sigourney-weaver-movie-poster-wallpaper-preview.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

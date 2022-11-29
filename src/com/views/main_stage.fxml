@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane id="AnchorPane" prefHeight="768.0" prefWidth="1366.0" styleClass="setimages" stylesheets="@../values/style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.controller.Main_stageController">
+   <children>
+      <VBox id="Pane" fx:id="node" layoutX="50.0" layoutY="5.0" prefHeight="760.0" prefWidth="1250.0" />
+        <Pane fx:id="closebutton" layoutX="1310.0" layoutY="5.0" onMouseClicked="#onClick" onMouseEntered="#onEntered" onMouseExited="#onExit" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: linear-gradient(to right, #3494e6, #ec6ead); -fx-background-radius: 30;">
+         <children>
+            <ImageView fitHeight="60.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/icons8_cancel_64px.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="760.0" prefWidth="1250.0" styleClass="chart-plot-background" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.controller.DetailsFramecontroller">
+   <children>
+      <AnchorPane layoutX="20.0" layoutY="40.0" prefHeight="500.0" prefWidth="260.0">
+         <children>
+            <ImageView fx:id="pictureimg" fitHeight="500.0" fitWidth="260.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </AnchorPane>
+      <VBox alignment="CENTER_LEFT" layoutX="311.0" layoutY="5.0" prefHeight="700.0" prefWidth="270.0" spacing="15.0" style="-fx-background-color: rgba(0,0,0,0.7); -fx-background-radius: 20;">
+         <children>
+            <Label id="lb" alignment="CENTER_RIGHT" prefHeight="42.0" prefWidth="270.0" stylesheets="@../values/style.css" text="WikiPedia Link :-">
+               <font>
+                  <Font name="SimSun" size="22.0" />
+               </font>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <padding>
+                  <Insets right="10.0" />
+               </padding>
+            </Label>
+            <Label id="lb" alignment="CENTER_RIGHT" prefHeight="42.0" prefWidth="270.0" stylesheets="@../values/style.css" text="Year Of Release :-">
+               <font>
+                  <Font name="SimSun" size="22.0" />
+               </font>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <padding>
+                  <Insets right="10.0" />
+               </padding>
+            </Label>
+            <Label id="lb" alignment="CENTER_RIGHT" prefHeight="42.0" prefWidth="270.0" stylesheets="@../values/style.css" text="Genres :-">
+               <font>
+                  <Font name="SimSun" size="22.0" />
+               </font>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <padding>
+                  <Insets right="10.0" />
+               </padding>
+            </Label>
+            <Label id="lb" alignment="CENTER_RIGHT" prefHeight="42.0" prefWidth="270.0" stylesheets="@../values/style.css" text="Run Time :-">
+               <font>
+                  <Font name="SimSun" size="22.0" />
+               </font>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <padding>
+                  <Insets right="10.0" />
+               </padding>
+            </Label>
+            <Label id="lb" alignment="CENTER_RIGHT" prefHeight="42.0" prefWidth="270.0" stylesheets="@../values/style.css" text="IMDB Votes :-">
+               <font>
+                  <Font name="SimSun" size="22.0" />
+               </font>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <padding>
+                  <Insets right="10.0" />
+               </padding>
+            </Label>
+            <Label id="lb" alignment="CENTER_RIGHT" prefHeight="42.0" prefWidth="270.0" stylesheets="@../values/style.css" text="IMDB Rating  :-">
+               <font>
+                  <Font name="SimSun" size="22.0" />
+               </font>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <padding>
+                  <Insets right="10.0" />
+               </padding>
+            </Label>
+            <Label id="lb" alignment="CENTER_RIGHT" prefHeight="42.0" prefWidth="270.0" stylesheets="@../values/style.css" text="Actors :-">
+               <font>
+                  <Font name="SimSun" size="22.0" />
+               </font>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <padding>
+                  <Insets right="10.0" />
+               </padding>
+            </Label>
+            <Label id="lb" alignment="CENTER_RIGHT" prefHeight="42.0" prefWidth="270.0" stylesheets="@../values/style.css" text="Release Date :-">
+               <font>
+                  <Font name="SimSun" size="22.0" />
+               </font>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <padding>
+                  <Insets right="10.0" />
+               </padding>
+            </Label>
+            <Label id="lb" alignment="CENTER_RIGHT" prefHeight="42.0" prefWidth="270.0" stylesheets="@../values/style.css" text="Wins Nominations :-">
+               <font>
+                  <Font name="SimSun" size="22.0" />
+               </font>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <padding>
+                  <Insets right="10.0" />
+               </padding>
+            </Label>
+            <Label id="lb" alignment="CENTER_RIGHT" prefHeight="42.0" prefWidth="270.0" stylesheets="@../values/style.css" text="Story :-">
+               <font>
+                  <Font name="SimSun" size="22.0" />
+               </font>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <padding>
+                  <Insets right="10.0" />
+               </padding>
+            </Label>
+            <Label id="lb" alignment="CENTER_RIGHT" prefHeight="42.0" prefWidth="270.0" stylesheets="@../values/style.css" text="Summary :-">
+               <font>
+                  <Font name="SimSun" size="22.0" />
+               </font>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <padding>
+                  <Insets right="10.0" />
+               </padding>
+            </Label>
+            <Label id="lb" alignment="CENTER_RIGHT" prefHeight="42.0" prefWidth="270.0" stylesheets="@../values/style.css" text="Adult :-">
+               <font>
+                  <Font name="SimSun" size="22.0" />
+               </font>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <padding>
+                  <Insets right="10.0" />
+               </padding>
+            </Label>
+         </children>
+      </VBox>
+      <VBox alignment="CENTER_LEFT" layoutX="600.0" layoutY="5.0" prefHeight="700.0" prefWidth="630.0" spacing="15.0" style="-fx-background-color: rgba(0,0,0,0.7); -fx-background-radius: 20;">
+         <children>
+            <Hyperlink id="lb" fx:id="wikipeadiaLinklabel" prefHeight="42.0" prefWidth="630.0" stylesheets="@../values/style.css" text="Hyperlink" wrapText="true">
+               <padding>
+                  <Insets left="10.0" />
+               </padding></Hyperlink>
+            <Label id="lb" fx:id="yearofreleaselabel" prefHeight="42.0" prefWidth="630.0" stylesheets="@../values/style.css" text="Uri: The Surgical Strike" wrapText="true">
+               <font>
+                  <Font name="SimSun" size="22.0" />
+               </font>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+            </Label>
+            <Label id="lb" fx:id="genreslabel" prefHeight="42.0" prefWidth="630.0" stylesheets="@../values/style.css" text="Uri: The Surgical Strike" wrapText="true">
+               <font>
+                  <Font name="SimSun" size="22.0" />
+               </font>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+            </Label>
+            <Label id="lb" fx:id="runtimelable" prefHeight="42.0" prefWidth="630.0" stylesheets="@../values/style.css" text="Uri: The Surgical Strike" wrapText="true">
+               <font>
+                  <Font name="SimSun" size="22.0" />
+               </font>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+            </Label>
+            <Label id="lb" fx:id="imdbvotelabel" prefHeight="42.0" prefWidth="630.0" stylesheets="@../values/style.css" text="Uri: The Surgical Strike" wrapText="true">
+               <font>
+                  <Font name="SimSun" size="22.0" />
+               </font>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+            </Label>
+            <Label id="lb" fx:id="imdbratinglabel" prefHeight="42.0" prefWidth="630.0" stylesheets="@../values/style.css" text="Uri: The Surgical Strike" wrapText="true">
+               <font>
+                  <Font name="SimSun" size="22.0" />
+               </font>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+            </Label>
+            <Label id="lb" fx:id="actornamelabel" prefHeight="42.0" prefWidth="630.0" stylesheets="@../values/style.css" text="Uri: The Surgical Strike" wrapText="true">
+               <font>
+                  <Font name="SimSun" size="22.0" />
+               </font>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+            </Label>
+            <Label id="lb" fx:id="releasedatelabel" prefHeight="42.0" prefWidth="630.0" stylesheets="@../values/style.css" text="Uri: The Surgical Strike" wrapText="true">
+               <font>
+                  <Font name="SimSun" size="22.0" />
+               </font>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+            </Label>
+            <Label id="lb" fx:id="winlabel" prefHeight="42.0" prefWidth="630.0" stylesheets="@../values/style.css" text="Uri: The Surgical Strike" wrapText="true">
+               <font>
+                  <Font name="SimSun" size="22.0" />
+               </font>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+            </Label>
+            <Label id="lb" fx:id="storylabel" prefHeight="42.0" prefWidth="630.0" stylesheets="@../values/style.css" text="Uri: The Surgical Strike" wrapText="true">
+               <font>
+                  <Font name="SimSun" size="12.0" />
+               </font>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+            </Label>
+            <Label id="lb" fx:id="summarylabel" prefHeight="42.0" prefWidth="630.0" stylesheets="@../values/style.css" text="Uri: The Surgical Strike" wrapText="true">
+               <font>
+                  <Font name="SimSun" size="10.0" />
+               </font>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+            </Label>
+            <Label id="lb" fx:id="adultlabel" prefHeight="42.0" prefWidth="630.0" stylesheets="@../values/style.css" text="Uri: The Surgical Strike" wrapText="true">
+               <font>
+                  <Font name="SimSun" size="22.0" />
+               </font>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+            </Label>
+         </children>
+      </VBox>
+      <Label fx:id="picturetitle" alignment="TOP_CENTER" layoutX="20.0" layoutY="562.0" prefHeight="145.0" prefWidth="260.0" text="Films showing near Shirpur, Maharashtra" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <JFXButton id="lb" fx:id="bookbutton" layoutX="701.0" layoutY="705.0" onAction="#onbookbuttonClick" prefHeight="30.0" prefWidth="400.0" style="-fx-background-color: rgba(0,0,0,0.7); -fx-background-radius: 15;" text="Book Ticket" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="29.0">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <Pane onMouseClicked="#onClick" styleClass="chart-plot-background">
+         <children>
+            <ImageView fitHeight="34.0" fitWidth="64.0">
+               <image>
+                  <Image url="@../img/icons8_back_arrow_64px_1.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
